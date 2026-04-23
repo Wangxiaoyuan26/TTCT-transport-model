@@ -1,0 +1,3 @@
+[build]
+  command = "pnpm install --config.frozen-lockfile=false --include=dev && pnpm run build"
+  publish = ".next"
